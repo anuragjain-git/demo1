@@ -24,4 +24,4 @@ jobs:
           npm install node-fetch
 
       - name: Run Update Script
-        run: node .github/workflows/update_readme.js
+        run: npx ts-node .github/workflows/update_readme.js
