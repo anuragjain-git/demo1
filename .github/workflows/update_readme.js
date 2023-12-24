@@ -1,5 +1,5 @@
-const fs = require('fs');
 const fetch = require('node-fetch');
+const fs = require('fs');
 
 async function updateReadme() {
   try {
