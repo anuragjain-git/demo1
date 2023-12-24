@@ -22,6 +22,7 @@ jobs:
         run: |
           npm install
           npm install node-fetch
+          npm install typescript
 
       - name: Run Update Script
         run: npx ts-node .github/workflows/update_readme.js
