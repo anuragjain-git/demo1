@@ -19,7 +19,7 @@ jobs:
           node-version: '14'
 
       - name: Install Dependencies
-        run: npm install node-fetch
+        run: npm install
 
       - name: Run Update Script
-        run: node .github/workflows/update_readme.js
+        run: node --loader ts-node/esm .github/workflows/update_readme.js
